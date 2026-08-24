@@ -1,0 +1,8 @@
+make the plan to implement what is described in @requirements.txt
+it is a complex task so split it in several small steps
+we will implement one step at a time
+ask me if you have any question
+write the plan in a text file, so we can continue when we stopped last time
+don't make unittests, I will verify myself that it works as expected
+don't make comments explaning the code
+

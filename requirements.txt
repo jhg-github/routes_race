@@ -1,0 +1,13 @@
+i want to create a web page. in this page we will create some animations based on the top view of a map/photo and records from running apps. this web will then animate so it will be possible to see how the person was running through the map/photo.
+
+the user sequence will be as follow:
+- the user will upload the photo of the area where he run and the activity was recorded with the running app
+- the user will upload the greographic location of two corners of the photo, right top and left bottom
+- the user will upload the record of one or more runs. it will contain several timestamps with the gps location of the runner at that point. the format will be different for different running apps
+
+the app sequence:
+- it will load the photo in the screen, keeping its aspect ratio but trying to use almost full screen
+- for each uploaded record:
+  - will show a circle representing the runner
+  - the circle will move around the photo based on the coordinates given by the user and the gps data of the running record for each timestamp
+  - the time of the timestamp will be visible
